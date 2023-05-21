@@ -1,0 +1,33 @@
+
+
+.nav-outer {
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+}
+.logo-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4vw;
+}
+.nav > li {
+    list-style: none;
+    font-size: larger;
+}
+
+.nav > li:last-child {
+    margin-right: 5vw;
+}
+.navlinks {
+    text-decoration: none;
+    color: inherit;
+}
