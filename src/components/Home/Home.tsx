@@ -2,7 +2,7 @@ import Nav from "../Nav/Nav";
 import "./Home.css";
 
 const Home = () => {
-    const listItems = ["Home", "Ads", "Profile", "Withdraw", "Logout"];
+    const listItems = ["Home","Statics", "Ads", "Profile"];
 
     return (
         <div>
