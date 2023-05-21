@@ -31,7 +31,9 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className="home_ad"></div>
+            <div className="home_ad">
+                Ad
+            </div>
             <footer className="home_footer">
                 Copyright © 2023 Obapan.lk. All rights reserved
             </footer>
