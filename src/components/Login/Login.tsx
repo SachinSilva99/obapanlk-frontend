@@ -16,12 +16,12 @@ function Copyright(props: any) {
     return (
         <Typography
             variant="body2"
-            color="text.secondary"
+            color="white"
             align="center"
             {...props}
         >
             {"Copyright © "}
-            <Link color="inherit" href="https://mui.com/">
+            <Link color="#nnn" href="#">
                 Obapan.lk
             </Link>{" "}
             {new Date().getFullYear()}
@@ -144,9 +144,13 @@ export default function Login() {
                             </Grid>
                             <Box
                                 sx={{
-                                    display: "flex",
-                                    flexDirection: "column",
-                                    alignItems: "center",
+                                    position: "absolute",
+                                    bottom: 0,
+                                    left: "50%",
+                                    transform: "translateX(-50%)", // Center horizontally
+                                    textAlign: "center", // Center vertically
+                                    width: "100%",
+                                    paddingBottom: "8px", // Add some spacing from the bottom
                                 }}
                             >
                                 <Copyright />
