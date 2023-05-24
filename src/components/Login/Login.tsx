@@ -142,7 +142,15 @@ export default function Login() {
                                     </Link>
                                 </Grid>
                             </Grid>
-                            <Copyright sx={{ mt: 5 }} />
+                            <Box
+                                sx={{
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    alignItems: "center",
+                                }}
+                            >
+                                <Copyright />
+                            </Box>
                         </Box>
                     </Box>
                 </Grid>
